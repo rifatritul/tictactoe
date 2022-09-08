@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
+</head>
+<body>
+	<h1>Tic Tac Toe</h1>
+	<h3>Player 1 : X</h3>
+	<h3>Player 2 : O</h3>
+	<div id="game-board">
+		<div class="cell" onclick="game(0)"></div>
+		<div class="cell" onclick="game(1)"></div>
+		<div class="cell" onclick="game(2)"></div>
+		<div class="cell" onclick="game(3)"></div>
+		<div class="cell" onclick="game(4)"></div>
+		<div class="cell" onclick="game(5)"></div>
+		<div class="cell" onclick="game(6)"></div>
+		<div class="cell" onclick="game(7)"></div>
+		<div class="cell" onclick="game(8)"></div>
+</div>
+<br>
+<h3 id="playerTurn">X's turn.</h3>
+<button onClick="window.location.reload();">Restart</button>
+
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
