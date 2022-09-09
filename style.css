@@ -1,15 +1,15 @@
-body{
-    text-align: center;
-    font-family: 'Permanent Marker', cursive;
+body {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
 }
-.cell{
-    border: 1px solid black;
-    font-size: 60px;
-    cursor: pointer;    
+.cell {
+  border: 1px solid black;
+  font-size: 60px;
+  cursor: pointer;
 }
-#game-board{
-    display: inline-grid;
-    grid-template-rows: 80px 80px 80px;
-    grid-template-columns: 80px 80px 80px;
-    box-shadow: 0 0 0 2px;
+#game-board {
+  display: inline-grid;
+  grid-template-rows: 80px 80px 80px;
+  grid-template-columns: 80px 80px 80px;
+  box-shadow: 0 0 0 2px;
 }
